@@ -102,7 +102,7 @@ def generate_forecast_data():
 
         for i, date in enumerate(future_dates):
             # Calculate dynamic confidence bounds
-            variance_factor = (i + 1) * (15 if model == "SARIMA" else 22)
+            variance_factor = (i + 1) * (15 if model == "SARIMA (Statistical)" else 22)
             forecast_records.append(
                 {
                     "Date": date,
