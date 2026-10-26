@@ -1,6 +1,3 @@
-# 1. Install necessary libraries
-!pip install streamlit plotly pandas numpy pyngrok -q
-
 # 2. Write the app code directly to a file named app.py
 %%writefile app.py
 import streamlit as st
