@@ -327,7 +327,7 @@ with tab_main:
     )
 
     fig_care.add_annotation(
-        x=recent_hist.index.median(),
+        x=recent_hist.index.mean(),
         y=capacity_threshold,
         text="Operational Capacity Safety Limit Threshold",
         showarrow=False,
