@@ -266,13 +266,13 @@ else:
     "✅ System Normal: Current projections indicate stable care loads within localized capacity safety ceilings for the selected horizon."
 )
 
-==============================================================================
 
 
-5. CORE MODULES PANEL: DATA VISUALIZATIONS
+
+#5. CORE MODULES PANEL: DATA VISUALIZATIONS
 
 
-==============================================================================
+
 
 tab_main, tab_metrics_compare = st.tabs(
 ["🔮 Multi-Horizon Projections", "📊 Model Selection & Performance Matrix"]
@@ -440,13 +440,13 @@ margin=dict(l=40, r=40, t=10, b=40),
 )
 st.plotly_chart(fig_scenario, use_container_width=True)
 
-==============================================================================
+#==============================================================================
 
 
-6. SYSTEM FOOTER SUMMARY
+#6. SYSTEM FOOTER SUMMARY
 
 
-==============================================================================
+#==============================================================================
 
 st.markdown("---")
 st.caption(
